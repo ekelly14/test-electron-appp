@@ -4,7 +4,8 @@
   "description": "First Electron App",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "dev": "electron .",
+    "build": "electron-packager . DevApp --platform=win32"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/ekelly14/test-electron-app#readme",
   "devDependencies": {
-    "electron": "^5.0.6"
+    "electron": "^5.0.6",
+    "electron-packager": "^14.0.0"
   },
   "dependencies": {}
 }
